@@ -1,0 +1,98 @@
+@import 'variables';
+
+
+    *{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    }
+    
+    html, body{
+        width:100%;
+        height:100%;
+    
+        
+    }
+
+@media screen and (max-width: 640px){
+.container{
+    display:flex;
+    background-color:$white-primary-color;
+
+    &__sections{
+        display:flex;
+        width:640px;
+        height:120px;
+        background-color:$white-primary-color;
+        border-style:solid;
+        border-width:0px 0px 4px 0px;
+        border-color:$perfil-mobile-encabezado-color;
+        align-items:center;
+        
+        &-profile{
+            display:flex;
+            margin-left:80px;
+            width:43px;
+            height:54px;
+            background-color:$white-primary-color;
+        }
+        
+        &-middle{
+            display:flex;
+            width:230px;
+            height:60px;
+            margin-left:120px;
+            background-color:$white-primary-color;
+            border-style:solid;
+            border-color: $perfil-mobile-encabezado-color;
+            border-radius:40px;
+            border-width:4px;
+            align-items:center;
+            
+            &-left{
+                display:flex;
+                width:120px;
+                height:60px;
+                background-color:$perfil-mobile-encabezado-color;
+                border-radius:40px;
+                align-items:center;
+                
+              &-details{
+                display:flex;
+                width:40px;
+                height:41px;
+                background-color:$perfil-mobile-encabezado-color;
+                margin-left:40px;
+                margin-right:40px;
+                }     
+            }
+            
+            
+            &-mountain{
+                display:flex;
+                margin-left:30px;
+                width:39px;
+                height:38px;
+                margin-right:40px;
+                background-color:$white-primary-color;
+            }   
+        }
+        
+        &-pig{
+            display:flex;
+            margin-right:80px;
+            width:47px;
+            height:54px;
+            
+            background-color:$white-primary-color;
+            cursor: pointer;
+            
+        }
+        
+    }
+    
+   
+    
+    
+}
+}
